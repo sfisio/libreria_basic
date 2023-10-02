@@ -63,43 +63,12 @@ integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxV
             </div>
 
             <div class="row">
-                        	<div class="form-group col-md-12">
-                        		<label class="col-md-3" for="time_added">Time_added</label>
-                        		<div class="col-md-6">
-                        			<form:input type="text" path="time_added" id="time_added"
-                        				class="form-control input-sm" required="required" />
-                        		</div>
-                        	</div>
-            </div>
-
-            <div class="row">
-                        	<div class="form-group col-md-12">
-                        		<label class="col-md-3" for="time_removed">Time_removed</label>
-                        		<div class="col-md-6">
-                        			<form:input type="text" path="time_removed" id="time_removed"
-                        				 />
-                        		</div>
-                        	</div>
-            </div>
-
-            <div class="row">
-                        	<div class="form-group col-md-12">
-                        		<label class="col-md-3" for="plot">Plot</label>
-                        		<div class="col-md-6">
-                        			<form:input type="text" path="plot" id="plot"
-                        				 />
-                        		</div>
-                        	</div>
-            </div>
-
-            <div class="row">
-                                    	<div class="form-group col-md-12">
-                                    		<label class="col-md-3" for="num_readings">Num_readings</label>
-                                    		<div class="col-md-6">
-                                    			<form:input type="text" path="num_readings" id="num_readings"
-                                    				 />
-                                    		</div>
-                                    	</div>
+                  <div class="form-group col-md-12">
+                  <label class="col-md-3" for="plot">Plot</label>
+                  <div class="col-md-6">
+                  <form:input type="text" path="plot" id="plot" />
+                    </div>
+                  </div>
             </div>
 
             <div class="row p-2">

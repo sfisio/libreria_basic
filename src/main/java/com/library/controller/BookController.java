@@ -99,10 +99,10 @@ public class BookController {
         model.addAttribute("isbn", book.getIsbn());
         model.addAttribute("author", book.getAuthor());
         model.addAttribute("title", book.getTitle());
-        model.addAttribute("time_added", book.getTime_added());
-        model.addAttribute("time_removed", book.getTime_removed());
+        //model.addAttribute("time_added", book.getTime_added());
+        //model.addAttribute("time_removed", book.getTime_removed());
         model.addAttribute("plot", book.getPlot());
-        model.addAttribute("num_readings", book.getNum_readings());
+        //model.addAttribute("num_readings", book.getNum_readings());
         return "view";
     }
 

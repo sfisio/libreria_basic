@@ -20,9 +20,20 @@ integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxV
         </c:when>
         <c:otherwise>
             <form action="/login" method="post">
-                Email:<input type="text" name="email"/><br/><br/>
-                Password:<input type="password" name="password"/><br/><br/>
-                <input type="submit" value="login"/>
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="text" name="email" placeholder="Email address"
+                /><br/><br/>
+                <label for="exampleInputPassword1">Password</label><input type="password" name="password" placeholder="Password"
+                /><br/><br/>
+                <div class="form-group">
+                	<div class="row">
+                			<div class="col-sm-6 col-sm-offset-3">
+                				<input type="submit" name="login-submit" id="login-submit"
+                				class="btn btn-primary" type="submit" value="login" />
+                			</div>
+                	</div>
+                </div>
+                <%--<input type="submit" value="login"/>--%>
             </form>
         </c:otherwise>
     </c:choose>
