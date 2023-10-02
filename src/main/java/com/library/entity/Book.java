@@ -1,34 +1,5 @@
 package com.library.entity;
 
-//import lombok.AllArgsConstructor;
-//import lombok.Builder;
-//import lombok.Data;
-//import lombok.NoArgsConstructor;
-//import org.springframework.context.annotation.Bean;
-//
-//import javax.persistence.*;
-//
-//@Entity
-//@Data
-//@Table(name = "books_table")
-//@NoArgsConstructor
-//@AllArgsConstructor
-//@Builder
-//public class Book {
-//    @Id
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
-//    private Integer id;
-//    private String Title;
-//    private String Author;
-//    private String ISBN;
-//    private String Time_added;
-//    private String Time_removed;
-//    private String Plot;
-//    private int Num_readings;
-//}
-
-
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
